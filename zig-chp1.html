@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>[ZIG] chapter one printing</title>
+  <P>printing in zig is quite simple just enter std.debug.print("insert text here \n", .{});</P>
+  <p>in the main function wich is something we will touch on later now if you were to take away</p>
+  <p>\n or new line character if you printed lets say bob likes pizza the output or result of the code</p>
+  <p>would look like this ({insert text}bob likes pizza) because you didnt specify that there was a new line</p>
+  <p>and finally do not forget to end almost every line with a ; and now boom you know printing in ZIG</p>
+  <p>now i have a challange for you make a coversation happen in the output/console/terminal useing what you learned</p>
+  <style>
+    .code-box {
+      background-color: #D3D3D3;
+      border: 1px solid #000000;
+      border-radius: 5px;
+      padding: 10px;
+      font-family: 'Courier New', Courier, monospace;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Code Box Example</h1>
+  <div class="code-box">
+    <pre><code>
+    const std = @import("std");
+    // the main function
+    pub fn main() void {
+        // printing
+        std.debug.print("hello wolrd\n", .{});
+    }
+    </code></pre>
+  </div>
+</body>
+</html>
