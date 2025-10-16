@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h2 class="title">chapter two variables</h2>
+    <p>welcome back user today were learning about variables a variable is a word</p>
+    <p>that means other words or sentances or true or false alot i know but just</p>
+    <p>keep reading to make a int/whole number variable you must enter int x = (number);</p>
+    <p>thats it and for a decimal number/float enter float x = (number.number);</p>
+    <p>and for words or letters you type in char word[length of word or more] = "word/words";</p>
+    <p>and lastly for our final variable the bool variable enter bool (word) = (true/false)</p>
+    <p>and that about wraps it up if you want to learn how to print variables wich i advise you to do</p>
+    <p>then read whats below and until we meet again next chapter or hopefully chapters by :)</p>
+    <h3 class="title">how to print variables in C</h3>
+    <p>to print in C you must a put in your text b your format specifier for the variable type</p>
+    <p>below heres a list of them %d = whloe numbers %f = floats/decimal numbers %c = characters %s = strings/sentances</p>
+    <p> and then the variable name outside of the qutoes thats it for now by :)</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h4 class="title">example code</h4>
+    <style>
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow-x: auto;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <pre>
+#include &lt;stdio.h&gt;
+#include &lt;stdbool.h&gt;
+int main(){
+    char exit[1] = ""; // this is for future lessons
+    int number = 5;
+    int number_2 = 10;
+    float floating_point_number = 3.14;
+    double big_ass_number = 1234.566785432323; 
+    char symbol_character = '!'; 
+    char character = 'A';
+    char name[30] = "bobert"; 
+    bool you_online = true;
+    printf("Hello, World!\n");
+    printf("The number is: %d\n", number);
+    printf("the second number is: %d\n", number_2);
+    printf("heres a floating point number %f\n", floating_point_number);
+    printf("here is a big ass number %lf\n", big_ass_number); 
+    printf("here is a symbol %c\n", symbol_character);
+    printf("here is a letter %c\n", character);
+    printf("%s is jimmys last name \n", name);
+    printf("two variables!!! %d %d\n", number_2, number);
+    printf("you are online right now is %d if 1 = true\n", you_online);
+    printf("enter any letter and press enter to exit the program");
+    scanf("%s", exit);
+    return 0;
+}
+    </pre>
+</body>
+</html>
+    <link rel="stylesheet" href="styles.css" />
+  </body>
+</html>
