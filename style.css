@@ -1,8 +1,5 @@
-/* Example CSS */
-.element {
-  background-image: url('https://github.com/turtleshell8/adamsonionblog/blob/main/Screenshot_16-10-2025_19373_www.webstaurantstore.com.jpeg'); /* Replace with your image URL */
-  background-size: cover; /* Ensures the image covers the entire element */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-
+h5 {
+  font-size: 150%; 
 }
+
+
