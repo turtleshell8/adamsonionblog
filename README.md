@@ -1,5 +1,5 @@
 # adamsonionblog
-https://turtleshell8.github.io/adamsonionblog my blogs name
+https://turtleshell8.github.io/adamsonionblog my blogs name <br />
 http://nczteu2ysssiayktaxfnmtbgsria3cpistsihxpeiijzw2z622cnceid.onion dark web version
 # updates
 we got a dark web version yes this version is more devious 
