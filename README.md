@@ -1,5 +1,5 @@
 # adamsonionblog
-https://turtleshell8.github.io/adamsonionblog my blogs name <br />
+ my blogs name <br />
 hello there just wanted to say if you want to see more stuff check the console <br />
 # updates
 got site indexed by google <br />
